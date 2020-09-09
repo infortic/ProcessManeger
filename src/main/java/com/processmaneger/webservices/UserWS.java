@@ -62,12 +62,7 @@ public class UserWS {
 	@ApiOperation(value="CADASTRO DE USUARIO")
 	@RequestMapping(method = RequestMethod.POST, path = "/salvar")
 	public ResponseEntity<?> salvar(@RequestBody UserEntity pessoa) {
-		if(pessoa.getNome().isEmpty() || pessoa.ge) {
-			
-		}
-			
-			
-		return new ResponseEntity<>(dao.save(pessoa), HttpStatus.OK);
+				return new ResponseEntity<>(dao.save(pessoa), HttpStatus.OK);
 	}
 	
 //	@ApiOperation(value="Salva uma lista de clientes")
