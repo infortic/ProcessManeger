@@ -28,21 +28,18 @@ Apos o download o processo de instalação é bastante simples e ituitivo, mas e
 `no Windows: `https://www.postgresqltutorial.com/install-postgresql/
 `no Linux: `https://www.digitalocean.com/community/tutorials/como-instalar-e-utilizar-o-postgresql-no-ubuntu-16-04-pt 
 
-
 `1.B Configurando o banco de dados`
 
 Acesso o PGADMIN (aplicação instalada junto com o banco) e execute o seguinte query:
 
-`CREATE DATABASE dados`
-    `WITH` 
-    `OWNER = postgres`
-    `ENCODING = 'UTF8'`
-    `LC_COLLATE = 'Portuguese_Brazil.1252'`
-    `LC_CTYPE = 'Portuguese_Brazil.1252'`
-    `TABLESPACE = pg_default`
-    `CONNECTION LIMIT = -1;` 
-	
-se tudo ocorrer bem 
+CREATE DATABASE dados
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Portuguese_Brazil.1252'
+    LC_CTYPE = 'Portuguese_Brazil.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
 
 
 
