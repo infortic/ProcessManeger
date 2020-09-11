@@ -18,7 +18,7 @@ Esta API tem os seguintes Recursos:
 
 ### 1 - Baixando e instalando o PostGres
 
-`1.A Você pode baixar uma versão do postgres no seguinte link:`
+`1.a - Você pode baixar uma versão do postgres no seguinte link:`
 https://www.postgresql.org/download/
 
 importante durante a instalação selecione o drive JDBC, pois o mesmo é necessario para o java reconhecer o banco de dados.
@@ -28,10 +28,11 @@ Apos o download o processo de instalação é bastante simples e ituitivo, mas e
 `no Windows: `https://www.postgresqltutorial.com/install-postgresql/
 `no Linux: `https://www.digitalocean.com/community/tutorials/como-instalar-e-utilizar-o-postgresql-no-ubuntu-16-04-pt 
 
-`1.B Configurando o banco de dados`
+`1.b - Criando o banco de dados`
 
 Acesso o PGADMIN (aplicação instalada junto com o banco) e execute o seguinte query:
 
+```
 CREATE DATABASE dados
     WITH 
     OWNER = postgres
@@ -40,8 +41,10 @@ CREATE DATABASE dados
     LC_CTYPE = 'Portuguese_Brazil.1252'
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
+```
+`1.c - Configurando o banco na aplicação`
 
-
+acesse o 
 
 Por exemplo, a string de conexão com o banco `postgres` rodando local na porta `8084`
 seria `jdbc:postgresql://localhost:5432/recrutamento`. Para configurar usuário `postgres` e senha `cleiton` uma configuração
@@ -54,7 +57,7 @@ spring:
     username: postgres     
     password: cleiton
 
-
+```
 #### 3 - Buildar e executar a aplicação
 
 Dentro do diretório root da aplicação executar os passos abaixo.
