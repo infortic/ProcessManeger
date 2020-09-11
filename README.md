@@ -13,8 +13,10 @@ Esta API tem os seguintes Recursos:
 * Mave
 * Banco de Dados PostGres V8+
 ### Passo a passo
-## OBS: Em caso de a porta 5001 não estar disponível altere-a no "application.yml" no seguinte caminho:
-`\src\main\resources\application.properties`
+
+`Ultilize esta linha de código para baixar a branch da aplicação`
+
+`git clone https://github.com/infortic/ProcessManeger.git`
 
 ### 1 - Baixando e instalando o PostGres
 
