@@ -49,7 +49,7 @@ CREATE DATABASE dados
 acesse o arquivo "application.yml" no seguinte caminho:
 `\src\main\resources\application.properties`
 
-No exemplo a baixo vemos um exemplo a baixo vemos a configuração original da aplicação com o banco de dados "dados", user "postgres" e senha "root"
+No exemplo a baixo vemos a configuração original da aplicação com o banco de dados "dados", user "postgres" e senha "root"
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/dados
 spring.datasource.username=postgres
