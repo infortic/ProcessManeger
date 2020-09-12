@@ -1,4 +1,4 @@
-# Gerencia de Tarefas
+# Gerência de Tarefas
 
 Esta API tem os seguintes Recursos: 
 
